@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>密码访问</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1682302819858_hf_0"></script>
+</head>
+<body>
+	
+	<form onsubmit="return checkPassword()">
+		<h1 align="center" style=" 
+                    font-size: 25px; 
+                    color:#152c5b; 
+                    font-weight:bold;
+                     margin-bottom: 20px;
+                    ">输入密码解锁此网址</h1>
+        <p align="center" style="
+                    color:#7f8da0;  
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                    ">此网址的访问受到限制，请输入密码进行查看</p>
+		
+		<input type="password" id="password" name="password">
+		<button type="submit" class="btn btn-primary" style=" margin-bottom: 20px;">解锁</button>
+		
+	</form>
+	<div style="text-align: center;">
+  <h5><a href="https://sourl.cn/mshWdt">密码获取详细教程</a></h5>
+  <h3><a>↓ 获取密码方法 ↓</a></h3>
+  <div style="display: flex; justify-content: center;">
+    <img style="max-width: 60%; height: auto;" src="https://p4.ssl.qhimg.com/t0127750e3d68f72db7.jpg" alt="暂无图片">
+  </div>
+  <p style="text-align: center;"><a>长按图片保存用VX扫一扫二维码<br>点击右下角详情，观看广告后自动复制密码！</a></p>
+</div>
+
+	
+	<script>
+		function checkPassword() {
+			var password = document.getElementById("password").value;
+			if (password === "552a") { 
+				window.location.href = "http://bj.bcebos.com/prody/user_avatar/img/202300416/use255511.7?http://bj.bcebos.com/prody/user_avatar/img/202300416/use255511.9?http://bj.bcebos.com/prody/user_avatar/img/202300416/use255511.6?http://bj.bcebos.com/prody/user_avatar/img/202300416/use255511.7?y23=sina,ishare&key=55a5f23fd78e3f03817bfedd1219e922c90762278f4cbca72d6cd5079cd866b0b8c3e9d1c1c3f9ac5afb607f4ed2140a75e26e7875229656b6eb0a159b0615cc9ee1b3d3fe03777b3317eed532e3af3810f81e2353879f24a3acc67c6e95c45a2a743bdc4be06c54da35fe472f9506c58e4608d51f984a19bda75aea2f01350178e9936aab10f3e8f6af013c90fcd3dc&yk20230501"; 
+				return false;
+			} else {
+				alert("密码错误，请重新输入！");
+				return false;
+			}
+		}
+	</script>
+	
+	</body>
+</html>
