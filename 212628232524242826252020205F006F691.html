@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" charset="utf-8" >
+	const url = new URL(window.location.href);
+	if (!url.searchParams.has('_t')) {
+	  url.searchParams.append('_t', Date.now());
+	  window.location.replace(url.toString());
+	}
+	</script>
+	<title>密码访问</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" charset="utf-8" src="//crossfb-70080.picnjc.qpic.cn/g.52000000-r.e620f/1682302819858_hf_0"></script>
+</head>
+<body>
+	
+	<form onsubmit="return checkPassword()">
+		<h1 align="center" style=" 
+                    font-size: 25px; 
+                    color:#152c5b; 
+                    font-weight:bold;
+                     margin-bottom: 20px;
+                    ">输入密码解锁此网址</h1>
+        <p align="center" style="
+                    color:#7f8da0;  
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                    ">此网址的访问受到限制，请输入密码进行查看</p>
+		
+		<input type="password" id="password" name="password">
+		<button type="submit" class="btn btn-primary" style=" margin-bottom: 20px;">解锁</button>
+		
+	</form>
+	<div style="text-align: center;">
+  <h5><a href="https://sourl.cn/mshWdt">密码获取详细教程</a></h5>
+  <h3><a>↓ 获取密码方法 ↓</a></h3>
+  <div style="display: flex; justify-content: center;">
+    <img style="max-width: 60%; height: auto;" src="https://p5.ssl.qhimg.com/t0138591d955edfcfd0.jpg" alt="暂无图片">
+  </div>
+  <p style="text-align: center;"><a>长按图片保存用VX扫一扫二维码<br>点击右下角详情，观看广告后自动复制密码！</a></p>
+</div>
+
+	
+	<script>
+		function checkPassword() {
+			var password = document.getElementById("password").value;
+			if (password === "66ll") { 
+				window.location.href = "http://bj.bcebos.com/gamemsx/user_avatar/img/20230502/usxe25551111x.2?http://bj.bcebos.com/gamemsx/user_avatar/img/20230502/usxe25551111x.3?y23=sina,ishare&key=55a5f23fd78e3f03817bfedd1219e9228476a8deef8d91ac0cfa527fef74eb4eb27dddf4e33ccdd37fb15dc7335d0e74776d78ec1e9829e69bd4d8dc4872ca19b5cdfd089928c1cbbeb315c6f92212e220a00a6f279f9b40ea81d93ea1d33259da09f036a88ba402bb3c1f1a00b9b579e52344afaa5ee9c94330affb63b9944debdf5f98618ab9daa005701c7da2149b&yk20230508"; 
+				return false;
+			} else {
+				alert("密码错误，请重新输入！");
+				return false;
+			}
+		}
+	</script>
+	
+	</body>
+</html>
